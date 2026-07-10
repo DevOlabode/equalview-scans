@@ -1,0 +1,102 @@
+{
+  "id": "9b2e6607-6770-437e-9159-49be331697d0",
+  "schemaVersion": 1,
+  "url": "https://codrlabs.com",
+  "scannedAt": "2026-07-10T20:51:25.836Z",
+  "result": {
+    "problems": {
+      "visualAccessibility": [
+        {
+          "id": "color-contrast",
+          "name": "Elements must meet minimum color contrast ratio thresholds",
+          "category": "visualAccessibility",
+          "rootCause": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "codeSnippet": "<p class=\"section-label mb-3\" style=\"color:var(--magenta)\">Who we are</p>",
+          "solution": [
+            "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #ac0c90, background color: #0e0e16, font size: 7.8pt (10.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+          ],
+          "count": 59,
+          "impact": "serious",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ]
+        },
+        {
+          "id": "region",
+          "name": "All page content should be contained by landmarks",
+          "category": "visualAccessibility",
+          "rootCause": "Ensure all page content is contained by landmarks",
+          "codeSnippet": "<span class=\"font-semibold text-center\">🏪 Small business? We have special rates to get you started.</span>",
+          "solution": [
+            "Fix any of the following:\n  Some page content is not contained by landmarks"
+          ],
+          "count": 1,
+          "impact": "moderate",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ]
+        }
+      ],
+      "structureAndSemantics": [],
+      "multimedia": []
+    },
+    "whatsGood": [
+      "Elements must only use supported ARIA attributes",
+      "ARIA role should be appropriate for the element",
+      "ARIA attributes must be used as specified for the element's role",
+      "Deprecated ARIA roles must not be used",
+      "aria-hidden=\"true\" must not be present on the document body",
+      "ARIA hidden element must not be focusable or contain focusable elements",
+      "Elements must only use permitted ARIA attributes",
+      "Required ARIA attributes must be provided",
+      "ARIA roles used must conform to valid values",
+      "ARIA attributes must conform to valid values",
+      "ARIA attributes must conform to valid names",
+      "Inline text spacing must be adjustable with custom stylesheets",
+      "Buttons must have discernible text",
+      "Page must have means to bypass repeated blocks",
+      "Elements must meet minimum color contrast ratio thresholds",
+      "Documents must have <title> element to aid in navigation",
+      "Headings should not be empty",
+      "Form field must not have multiple label elements",
+      "Heading levels should only increase by one",
+      "<html> element must have a lang attribute",
+      "<html> element must have a valid value for the lang attribute",
+      "Images must have alternative text",
+      "Alternative text of images should not be repeated as text",
+      "Form elements should have a visible label",
+      "Form elements must have labels",
+      "Banner landmark should not be contained in another landmark",
+      "Contentinfo landmark should not be contained in another landmark",
+      "Main landmark should not be contained in another landmark",
+      "Document should not have more than one banner landmark",
+      "Document should not have more than one contentinfo landmark",
+      "Document should not have more than one main landmark",
+      "Document should have one main landmark",
+      "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+      "Links must have discernible text",
+      "Users should be able to zoom and scale the text up to 500%",
+      "Zooming and scaling must not be disabled",
+      "Interactive controls must not be nested",
+      "Page should contain a level-one heading",
+      "All page content should be contained by landmarks",
+      "[role=\"img\"] elements must have alternative text",
+      "Scrollable region must have keyboard access",
+      "<svg> elements with an img role must have alternative text"
+    ]
+  }
+}
