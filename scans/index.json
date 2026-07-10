@@ -1,4 +1,17 @@
 {
   "schemaVersion": 1,
-  "scans": []
+  "scans": [
+    {
+      "id": "9b2e6607-6770-437e-9159-49be331697d0",
+      "url": "https://codrlabs.com",
+      "host": "codrlabs.com",
+      "scannedAt": "2026-07-10T20:51:25.836Z",
+      "score": 0,
+      "issues": 60,
+      "topSeverity": "serious",
+      "file": "scans/9b2e6607-6770-437e-9159-49be331697d0_codrlabs.com.json",
+      "size": 4695,
+      "sha256": "974e136f724e98acc09851fc9aaa7bbdd3691882d0dfe938bc86deb2ecf4eceb"
+    }
+  ]
 }
