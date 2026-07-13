@@ -1,0 +1,53 @@
+{
+  "id": "73470cc2-a556-4848-b55b-865b289a893f",
+  "schemaVersion": 1,
+  "url": "https://voult.dev",
+  "scannedAt": "2026-07-13T18:44:36.460Z",
+  "result": {
+    "problems": {
+      "visualAccessibility": [],
+      "structureAndSemantics": [
+        {
+          "id": "heading-order",
+          "name": "Heading levels should only increase by one",
+          "category": "structureAndSemantics",
+          "rootCause": "Ensure the order of headings is semantically correct",
+          "codeSnippet": "<h3>Security-first</h3>",
+          "solution": [
+            "Fix any of the following:\n  Heading order invalid"
+          ],
+          "count": 1,
+          "impact": "moderate",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ]
+        }
+      ],
+      "multimedia": []
+    },
+    "whatsGood": [
+      "aria-hidden=\"true\" must not be present on the document body",
+      "Inline text spacing must be adjustable with custom stylesheets",
+      "Page must have means to bypass repeated blocks",
+      "Documents must have <title> element to aid in navigation",
+      "Headings should not be empty",
+      "Heading levels should only increase by one",
+      "<html> element must have a lang attribute",
+      "<html> element must have a valid value for the lang attribute",
+      "Images must have alternative text",
+      "Alternative text of images should not be repeated as text",
+      "Main landmark should not be contained in another landmark",
+      "Document should not have more than one main landmark",
+      "Document should have one main landmark",
+      "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+      "Links must have discernible text",
+      "Users should be able to zoom and scale the text up to 500%",
+      "Zooming and scaling must not be disabled",
+      "Interactive controls must not be nested",
+      "Page should contain a level-one heading",
+      "All page content should be contained by landmarks"
+    ]
+  }
+}

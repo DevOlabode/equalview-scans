@@ -2,6 +2,18 @@
   "schemaVersion": 1,
   "scans": [
     {
+      "id": "73470cc2-a556-4848-b55b-865b289a893f",
+      "url": "https://voult.dev",
+      "host": "voult.dev",
+      "scannedAt": "2026-07-13T18:44:36.460Z",
+      "score": 96,
+      "issues": 1,
+      "topSeverity": "moderate",
+      "file": "scans/73470cc2-a556-4848-b55b-865b289a893f_voult.dev.json",
+      "size": 2133,
+      "sha256": "7ffe14ccd6f688b5cc4651e671322914cb7409619cbb6fc8d9a6dbab11a48c5f"
+    },
+    {
       "id": "9b2e6607-6770-437e-9159-49be331697d0",
       "url": "https://codrlabs.com",
       "host": "codrlabs.com",
