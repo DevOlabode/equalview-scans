@@ -1,0 +1,27 @@
+{
+  "kind": "account-store",
+  "schemaVersion": 1,
+  "minReaderSchemaVersion": 1,
+  "account": {
+    "id": "9c43e99f-eba3-4d40-881a-9cee5b8b78ba",
+    "createdAt": "2026-07-10T20:50:59.853Z",
+    "updatedAt": "2026-07-13T18:44:36.460Z"
+  },
+  "storage": {
+    "provider": "github",
+    "providerStorageId": "R_kgDOTUtWRA",
+    "ownerId": "166953605",
+    "ownerDisplay": "DevOlabode",
+    "repo": "DevOlabode/equalview-scans",
+    "branch": "main"
+  },
+  "settings": {
+    "autoDelete90d": true
+  },
+  "summary": {
+    "scanCount": 2,
+    "lastScanAt": "2026-07-13T18:44:36.460Z"
+  },
+  "features": [],
+  "vizably": true
+}
